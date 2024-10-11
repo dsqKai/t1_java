@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "message": "Database connection failed due to timeout",
+    "exception_description": "TimeoutException: The connection to the database timed out.",
+    "method_signature": "connectToDatabase()"
+  },
+  {
+    "id": 2,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 3,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 4,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 5,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 6,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 7,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 8,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 9,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 10,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 11,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 12,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 13,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 14,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 15,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 16,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 17,
+    "message": "Access denied for user",
+    "exception_description": "SecurityException: User does not have permission to access this resource.",
+    "method_signature": "authenticateUser()"
+  },
+  {
+    "id": 18,
+    "message": "Database connection failed due to timeout",
+    "exception_description": "TimeoutException: The connection to the database timed out.",
+    "method_signature": "connectToDatabase()"
+  },
+  {
+    "id": 19,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 20,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 21,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 22,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 23,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 24,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 25,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 26,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 27,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 28,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 29,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 30,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 31,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 32,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 33,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 34,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 35,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 36,
+    "message": "Access denied for user",
+    "exception_description": "SecurityException: User does not have permission to access this resource.",
+    "method_signature": "authenticateUser()"
+  },
+  {
+    "id": 37,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 38,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 39,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 40,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 41,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 42,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 43,
+    "message": "Database connection failed due to timeout",
+    "exception_description": "TimeoutException: The connection to the database timed out.",
+    "method_signature": "connectToDatabase()"
+  },
+  {
+    "id": 44,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 45,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 46,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 47,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 48,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 49,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 50,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 51,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 52,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 53,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 54,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 55,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 56,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 57,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 58,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 59,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 60,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 61,
+    "message": "Database connection failed due to timeout",
+    "exception_description": "TimeoutException: The connection to the database timed out.",
+    "method_signature": "connectToDatabase()"
+  },
+  {
+    "id": 62,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 63,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 64,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 65,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 66,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 67,
+    "message": "Database connection failed due to timeout",
+    "exception_description": "TimeoutException: The connection to the database timed out.",
+    "method_signature": "connectToDatabase()"
+  },
+  {
+    "id": 68,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 69,
+    "message": "Service unavailable",
+    "exception_description": "ServiceUnavailableException: The requested service is currently unavailable.",
+    "method_signature": "requestUserProfile()"
+  },
+  {
+    "id": 70,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 71,
+    "message": "Access denied for user",
+    "exception_description": "SecurityException: User does not have permission to access this resource.",
+    "method_signature": "authenticateUser()"
+  },
+  {
+    "id": 72,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 73,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 74,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 75,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 76,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 77,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 78,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 79,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 80,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 81,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 82,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 83,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 84,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 85,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 86,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 87,
+    "message": "Invalid query syntax",
+    "exception_description": "SyntaxError: Unexpected end of SQL command.",
+    "method_signature": "executeSQLQuery()"
+  },
+  {
+    "id": 88,
+    "message": "Index out of bounds",
+    "exception_description": "IndexOutOfBoundsException: Array index is out of range.",
+    "method_signature": "accessArrayElement()"
+  },
+  {
+    "id": 89,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 90,
+    "message": "Unexpected end of file",
+    "exception_description": "EOFException: Unexpected end of file reached during reading.",
+    "method_signature": "loadConfiguration()"
+  },
+  {
+    "id": 91,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 92,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 93,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 94,
+    "message": "Malformed URL",
+    "exception_description": "MalformedURLException: The URL provided is not properly formatted.",
+    "method_signature": "connectToWebService()"
+  },
+  {
+    "id": 95,
+    "message": "Null pointer reference",
+    "exception_description": "NullPointerException: Attempt to invoke method on a null object reference.",
+    "method_signature": "retrieveUserData()"
+  },
+  {
+    "id": 96,
+    "message": "Resource allocation failed",
+    "exception_description": "ResourceAllocationException: Insufficient resources to complete the operation.",
+    "method_signature": "allocateResources()"
+  },
+  {
+    "id": 97,
+    "message": "File not found on the server",
+    "exception_description": "FileNotFoundException: The specified file was not found on the server path.",
+    "method_signature": "readConfigurationFile()"
+  },
+  {
+    "id": 98,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  },
+  {
+    "id": 99,
+    "message": "Data parsing error",
+    "exception_description": "ParseException: Error occurred while parsing data from the input stream.",
+    "method_signature": "parseInputData()"
+  },
+  {
+    "id": 100,
+    "message": "User session expired",
+    "exception_description": "SessionExpiredException: The user session has expired due to inactivity.",
+    "method_signature": "checkUserSession()"
+  }
+]

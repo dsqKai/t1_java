@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "method_signature": "simulateWeather()",
+    "execution_time": 1896
+  },
+  {
+    "id": 2,
+    "method_signature": "computeFactorial()",
+    "execution_time": 2603
+  },
+  {
+    "id": 3,
+    "method_signature": "trainNeuralNet()",
+    "execution_time": 2599
+  },
+  {
+    "id": 4,
+    "method_signature": "optimizeArray()",
+    "execution_time": 1019
+  },
+  {
+    "id": 5,
+    "method_signature": "storeUserData()",
+    "execution_time": 2719
+  },
+  {
+    "id": 6,
+    "method_signature": "searchNode()",
+    "execution_time": 1550
+  },
+  {
+    "id": 7,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 2139
+  },
+  {
+    "id": 8,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 1109
+  },
+  {
+    "id": 9,
+    "method_signature": "parseLargeData()",
+    "execution_time": 2409
+  },
+  {
+    "id": 10,
+    "method_signature": "processImageData()",
+    "execution_time": 2942
+  },
+  {
+    "id": 11,
+    "method_signature": "trainNeuralNet()",
+    "execution_time": 1317
+  },
+  {
+    "id": 12,
+    "method_signature": "mapGraphNodes()",
+    "execution_time": 2165
+  },
+  {
+    "id": 13,
+    "method_signature": "transformDataFrame()",
+    "execution_time": 1808
+  },
+  {
+    "id": 14,
+    "method_signature": "optimizeArray()",
+    "execution_time": 2710
+  },
+  {
+    "id": 15,
+    "method_signature": "compileSourceCode()",
+    "execution_time": 1914
+  },
+  {
+    "id": 16,
+    "method_signature": "optimizeArray()",
+    "execution_time": 2262
+  },
+  {
+    "id": 17,
+    "method_signature": "computeFactorial()",
+    "execution_time": 1986
+  },
+  {
+    "id": 18,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 1499
+  },
+  {
+    "id": 19,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 2764
+  },
+  {
+    "id": 20,
+    "method_signature": "simulateWeather()",
+    "execution_time": 2844
+  },
+  {
+    "id": 21,
+    "method_signature": "sortNumbers()",
+    "execution_time": 1562
+  },
+  {
+    "id": 22,
+    "method_signature": "computeFactorial()",
+    "execution_time": 2345
+  },
+  {
+    "id": 23,
+    "method_signature": "computeFactorial()",
+    "execution_time": 1478
+  },
+  {
+    "id": 24,
+    "method_signature": "transformDataFrame()",
+    "execution_time": 2684
+  },
+  {
+    "id": 25,
+    "method_signature": "mapGraphNodes()",
+    "execution_time": 1518
+  },
+  {
+    "id": 26,
+    "method_signature": "searchNode()",
+    "execution_time": 1035
+  },
+  {
+    "id": 27,
+    "method_signature": "processImageData()",
+    "execution_time": 2443
+  },
+  {
+    "id": 28,
+    "method_signature": "searchNode()",
+    "execution_time": 2939
+  },
+  {
+    "id": 29,
+    "method_signature": "connectDatabase()",
+    "execution_time": 2622
+  },
+  {
+    "id": 30,
+    "method_signature": "searchNode()",
+    "execution_time": 1247
+  },
+  {
+    "id": 31,
+    "method_signature": "storeUserData()",
+    "execution_time": 1002
+  },
+  {
+    "id": 32,
+    "method_signature": "computeFactorial()",
+    "execution_time": 1049
+  },
+  {
+    "id": 33,
+    "method_signature": "retrieveDeepData()",
+    "execution_time": 2811
+  },
+  {
+    "id": 34,
+    "method_signature": "optimizeArray()",
+    "execution_time": 1916
+  },
+  {
+    "id": 35,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 2169
+  },
+  {
+    "id": 36,
+    "method_signature": "computeFactorial()",
+    "execution_time": 1111
+  },
+  {
+    "id": 37,
+    "method_signature": "retrieveDeepData()",
+    "execution_time": 1850
+  },
+  {
+    "id": 38,
+    "method_signature": "retrieveDeepData()",
+    "execution_time": 1113
+  },
+  {
+    "id": 39,
+    "method_signature": "connectDatabase()",
+    "execution_time": 1610
+  },
+  {
+    "id": 40,
+    "method_signature": "storeUserData()",
+    "execution_time": 1127
+  },
+  {
+    "id": 41,
+    "method_signature": "parseLargeData()",
+    "execution_time": 2102
+  },
+  {
+    "id": 42,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 1054
+  },
+  {
+    "id": 43,
+    "method_signature": "mapGraphNodes()",
+    "execution_time": 1285
+  },
+  {
+    "id": 44,
+    "method_signature": "compileSourceCode()",
+    "execution_time": 2565
+  },
+  {
+    "id": 45,
+    "method_signature": "sortNumbers()",
+    "execution_time": 2369
+  },
+  {
+    "id": 46,
+    "method_signature": "resolveNetworkPath()",
+    "execution_time": 1435
+  },
+  {
+    "id": 47,
+    "method_signature": "processImageData()",
+    "execution_time": 1511
+  },
+  {
+    "id": 48,
+    "method_signature": "retrieveDeepData()",
+    "execution_time": 2437
+  },
+  {
+    "id": 49,
+    "method_signature": "sortNumbers()",
+    "execution_time": 1041
+  },
+  {
+    "id": 50,
+    "method_signature": "parseLargeData()",
+    "execution_time": 1401
+  },
+  {
+    "id": 51,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 1434
+  },
+  {
+    "id": 52,
+    "method_signature": "connectDatabase()",
+    "execution_time": 1654
+  },
+  {
+    "id": 53,
+    "method_signature": "mapGraphNodes()",
+    "execution_time": 2156
+  },
+  {
+    "id": 54,
+    "method_signature": "retrieveDeepData()",
+    "execution_time": 1342
+  },
+  {
+    "id": 55,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 2414
+  },
+  {
+    "id": 56,
+    "method_signature": "resolveNetworkPath()",
+    "execution_time": 1908
+  },
+  {
+    "id": 57,
+    "method_signature": "retrieveDeepData()",
+    "execution_time": 2332
+  },
+  {
+    "id": 58,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 1237
+  },
+  {
+    "id": 59,
+    "method_signature": "transformDataFrame()",
+    "execution_time": 2034
+  },
+  {
+    "id": 60,
+    "method_signature": "compileSourceCode()",
+    "execution_time": 1810
+  },
+  {
+    "id": 61,
+    "method_signature": "optimizeArray()",
+    "execution_time": 2287
+  },
+  {
+    "id": 62,
+    "method_signature": "render3DScene()",
+    "execution_time": 2080
+  },
+  {
+    "id": 63,
+    "method_signature": "render3DScene()",
+    "execution_time": 1429
+  },
+  {
+    "id": 64,
+    "method_signature": "connectDatabase()",
+    "execution_time": 1262
+  },
+  {
+    "id": 65,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 1358
+  },
+  {
+    "id": 66,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 2680
+  },
+  {
+    "id": 67,
+    "method_signature": "sortNumbers()",
+    "execution_time": 2952
+  },
+  {
+    "id": 68,
+    "method_signature": "trainNeuralNet()",
+    "execution_time": 1607
+  },
+  {
+    "id": 69,
+    "method_signature": "resolveNetworkPath()",
+    "execution_time": 1686
+  },
+  {
+    "id": 70,
+    "method_signature": "computeFactorial()",
+    "execution_time": 1907
+  },
+  {
+    "id": 71,
+    "method_signature": "analyzeMarketData()",
+    "execution_time": 1427
+  },
+  {
+    "id": 72,
+    "method_signature": "fetchAPIResponse()",
+    "execution_time": 1698
+  },
+  {
+    "id": 73,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 2481
+  },
+  {
+    "id": 74,
+    "method_signature": "trainNeuralNet()",
+    "execution_time": 2938
+  },
+  {
+    "id": 75,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 1869
+  },
+  {
+    "id": 76,
+    "method_signature": "computeFactorial()",
+    "execution_time": 2010
+  },
+  {
+    "id": 77,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 1451
+  },
+  {
+    "id": 78,
+    "method_signature": "sortNumbers()",
+    "execution_time": 1396
+  },
+  {
+    "id": 79,
+    "method_signature": "analyzeMarketData()",
+    "execution_time": 2934
+  },
+  {
+    "id": 80,
+    "method_signature": "computeFactorial()",
+    "execution_time": 1470
+  },
+  {
+    "id": 81,
+    "method_signature": "optimizeArray()",
+    "execution_time": 2808
+  },
+  {
+    "id": 82,
+    "method_signature": "trainNeuralNet()",
+    "execution_time": 2317
+  },
+  {
+    "id": 83,
+    "method_signature": "connectDatabase()",
+    "execution_time": 2665
+  },
+  {
+    "id": 84,
+    "method_signature": "analyzeMarketData()",
+    "execution_time": 2799
+  },
+  {
+    "id": 85,
+    "method_signature": "transformDataFrame()",
+    "execution_time": 1554
+  },
+  {
+    "id": 86,
+    "method_signature": "computeFactorial()",
+    "execution_time": 2202
+  },
+  {
+    "id": 87,
+    "method_signature": "storeUserData()",
+    "execution_time": 1978
+  },
+  {
+    "id": 88,
+    "method_signature": "optimizeArray()",
+    "execution_time": 2226
+  },
+  {
+    "id": 89,
+    "method_signature": "mapGraphNodes()",
+    "execution_time": 1649
+  },
+  {
+    "id": 90,
+    "method_signature": "storeUserData()",
+    "execution_time": 2429
+  },
+  {
+    "id": 91,
+    "method_signature": "compileSourceCode()",
+    "execution_time": 2953
+  },
+  {
+    "id": 92,
+    "method_signature": "fetchAPIResponse()",
+    "execution_time": 2968
+  },
+  {
+    "id": 93,
+    "method_signature": "fetchAPIResponse()",
+    "execution_time": 1259
+  },
+  {
+    "id": 94,
+    "method_signature": "trainNeuralNet()",
+    "execution_time": 1291
+  },
+  {
+    "id": 95,
+    "method_signature": "connectDatabase()",
+    "execution_time": 2752
+  },
+  {
+    "id": 96,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 1575
+  },
+  {
+    "id": 97,
+    "method_signature": "aggregateSensorData()",
+    "execution_time": 1881
+  },
+  {
+    "id": 98,
+    "method_signature": "compileSourceCode()",
+    "execution_time": 2015
+  },
+  {
+    "id": 99,
+    "method_signature": "generateGameLevel()",
+    "execution_time": 1062
+  },
+  {
+    "id": 100,
+    "method_signature": "resolveNetworkPath()",
+    "execution_time": 2540
+  }
+]
