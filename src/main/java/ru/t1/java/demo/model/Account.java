@@ -16,7 +16,10 @@ import java.util.UUID;
 @NoArgsConstructor
 @Entity
 @Table(name="accounts")
-public class Account extends AbstractPersistable<UUID> {
+public class Account {
+    @Id
+    private UUID id;
+
     @Enumerated(EnumType.STRING)
     @Column(length = 20)
     private AccountType type;

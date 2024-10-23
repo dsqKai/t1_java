@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import ru.t1.java.demo.exception.NotYetImplementedException;
-import ru.t1.java.demo.kafka.KafkaClientProducer;
+import ru.t1.java.demo.kafka.client.KafkaClientProducer;
 import ru.t1.java.demo.model.Client;
 import ru.t1.java.demo.model.dto.ClientDto;
 import ru.t1.java.demo.repository.ClientRepository;
@@ -40,7 +40,7 @@ public class ClientServiceImpl implements ClientService {
 
         ClientDto[] clients = new ClientDto[0];
         try {
-            clients = mapper.readValue(new File("src/main/resources/MOCK_DATA.json"), ClientDto[].class);
+            clients = mapper.readValue(new File("src/main/resources/mocks/MOCK_DATA.json"), ClientDto[].class);
         } catch (IOException e) {
 //            throw new RuntimeException(e);
             log.warn("Exception: ", e);

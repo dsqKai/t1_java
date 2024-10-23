@@ -7,6 +7,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import ru.t1.java.demo.kafka.metric.KafkaMetricProducer;
 import ru.t1.java.demo.model.TimeLimitExceedLog;
 import ru.t1.java.demo.repository.TimeLimitExceedLogRepository;
 
@@ -14,13 +15,18 @@ import ru.t1.java.demo.repository.TimeLimitExceedLogRepository;
 @Aspect
 @Component
 public class TimeLimitExceedAspect {
-    private TimeLimitExceedLogRepository logRepository;
+    private final TimeLimitExceedLogRepository logRepository;
+    private final KafkaMetricProducer kafkaMetricProducer;
 
     @Value("${track.time-limit-exceed}")
     private long timeLimit;
 
+    @Value("${track.db.enabled}")
+    private boolean isDatabaseEnabled;
+
     @Pointcut("@annotation(Timed)")
-    public void timedMethods() {}
+    public void timedMethods() {
+    }
 
     @Around("timedMethods()")
     public Object logIfExceedsTimeLimit(ProceedingJoinPoint joinPoint) throws Throwable {
@@ -31,9 +37,11 @@ public class TimeLimitExceedAspect {
         if (executionTime > timeLimit) {
             String methodName = joinPoint.getSignature().toShortString();
             TimeLimitExceedLog logEntry = new TimeLimitExceedLog(methodName, executionTime);
-            logRepository.save(logEntry);
+            if (isDatabaseEnabled) {
+                logRepository.save(logEntry);
+            }
+            kafkaMetricProducer.sendMessage(logEntry);
         }
-
         return result;
     }
 }

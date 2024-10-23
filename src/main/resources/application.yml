@@ -2,16 +2,15 @@ spring:
   application:
     name: t1-java-demo
   datasource:
-    jdbcUrl: jdbc:postgresql://localhost:5432/t1_demo
     username: postgres
     password: "0000"
     driverClassName: org.postgresql.Driver
+    jdbcUrl: jdbc:postgresql://localhost:5432/t1_demo
   liquibase:
     enabled: true
-    default-schema: t1_demo
+    default-schema: public
     change-log: db/changelog/db.changelog-master.xml
     driver-class-name: org.postgresql.Driver
-    driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/t1_demo
     user: postgres
     password: "0000"
@@ -40,7 +39,12 @@ t1:
       client_registration: t1_demo_client_registration
       client_id_registered: t1_demo_client_registered
       client_transactions: t1_demo_client_transactions
+      accounts: t1_demo_accounts
+      transactions: t1_demo_transactions
+      metric-trace: t1_demo_metric_trace
     listener:
+      account-save-id: test
+      transaction-save-id: test1
       poll-timeout: 1000
 
 

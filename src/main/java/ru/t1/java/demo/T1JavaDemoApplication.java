@@ -12,7 +12,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import javax.sql.DataSource;
 
 @SpringBootApplication
-//@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy
 @EnableConfigurationProperties
 @Slf4j
 public class T1JavaDemoApplication {
