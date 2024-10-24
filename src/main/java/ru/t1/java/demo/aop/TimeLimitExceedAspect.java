@@ -1,6 +1,7 @@
 package ru.t1.java.demo.aop;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -11,6 +12,7 @@ import ru.t1.java.demo.kafka.metric.KafkaMetricProducer;
 import ru.t1.java.demo.model.TimeLimitExceedLog;
 import ru.t1.java.demo.repository.TimeLimitExceedLogRepository;
 
+@Slf4j
 @RequiredArgsConstructor
 @Aspect
 @Component
@@ -30,18 +32,24 @@ public class TimeLimitExceedAspect {
 
     @Around("timedMethods()")
     public Object logIfExceedsTimeLimit(ProceedingJoinPoint joinPoint) throws Throwable {
-        long startTime = System.currentTimeMillis();
-        Object result = joinPoint.proceed();
-        long executionTime = System.currentTimeMillis() - startTime;
+        try {
+            long startTime = System.currentTimeMillis();
+            Object result = joinPoint.proceed();
+            long executionTime = System.currentTimeMillis() - startTime;
 
-        if (executionTime > timeLimit) {
-            String methodName = joinPoint.getSignature().toShortString();
-            TimeLimitExceedLog logEntry = new TimeLimitExceedLog(methodName, executionTime);
-            if (isDatabaseEnabled) {
-                logRepository.save(logEntry);
+            if (executionTime > timeLimit) {
+                String methodName = joinPoint.getSignature().toShortString();
+                TimeLimitExceedLog logEntry = new TimeLimitExceedLog(methodName, executionTime);
+
+                if (isDatabaseEnabled) {
+                    logRepository.save(logEntry);
+                }
+                kafkaMetricProducer.sendMessage(logEntry);
             }
-            kafkaMetricProducer.sendMessage(logEntry);
+            return result;
+        } catch (Throwable e) {
+            log.error("Error executing method: " + e.getMessage());
+            throw e;
         }
-        return result;
     }
 }
